@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/TomTatVanBan/static/css/main.e494260f.css",
+    "main.js": "/TomTatVanBan/static/js/main.418a2ab6.js",
+    "static/js/453.bb023a88.chunk.js": "/TomTatVanBan/static/js/453.bb023a88.chunk.js",
+    "static/media/botAI.jpg": "/TomTatVanBan/static/media/botAI.bc22ba732e5e69df0e86.jpg",
+    "static/media/docIcon.png": "/TomTatVanBan/static/media/docIcon.ec8bbc98a9de650adc2a.png",
+    "index.html": "/TomTatVanBan/index.html",
+    "main.e494260f.css.map": "/TomTatVanBan/static/css/main.e494260f.css.map",
+    "main.418a2ab6.js.map": "/TomTatVanBan/static/js/main.418a2ab6.js.map",
+    "453.bb023a88.chunk.js.map": "/TomTatVanBan/static/js/453.bb023a88.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e494260f.css",
+    "static/js/main.418a2ab6.js"
+  ]
+}
