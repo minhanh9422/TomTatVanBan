@@ -1,0 +1,113 @@
+.container {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    max-width: 2000px;
+    margin: 40px auto;
+    border: 1px solid #cbd5e0;
+    border-radius: 12px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+.input-section {
+    flex: 1;
+    margin-right: 12px;
+    background-color: #ffffff;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.text-input {
+    height: 70%;
+    resize: none;
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    outline: none;
+    margin-bottom: 16px;
+}
+
+.upload-label {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #a0aec0;
+    border-radius: 8px;
+    padding: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upload-label:hover {
+    background-color: #f0f4f8;
+}
+
+.upload-label img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 8px;
+}
+
+.upload-label span {
+    color: #1a73e8;
+    font-weight: 500;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.summarize-button {
+    margin-top: 20px;
+    align-self: center;
+    padding: 10px 30px;
+    background-color: #1a73e8;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.output-section {
+    flex: 1;
+    background-color: #ffffff;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    overflow: hidden; 
+}
+
+.output-content {
+    flex: 1;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    padding: 12px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    border: 1px solid #e2e8f0;
+}
+
+.word-count {
+    text-align: left;
+    color: #999;
+    font-size: 13px;
+    margin-top: 10px;
+}
